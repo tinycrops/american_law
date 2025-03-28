@@ -94,4 +94,4 @@ def get_law(law_id):
         return jsonify({'error': 'Law not found'}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True, port=8080) 
